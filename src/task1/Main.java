@@ -1,7 +1,6 @@
 package task1;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
@@ -27,7 +26,7 @@ public class Main {
             System.out.println(t2.getName());
             System.out.println(t2.getParent());
 
-            if (!way.contains(".")){
+            if (t2.isDirectory()){
                 System.out.println("Введена папка а не файл");
             }
 

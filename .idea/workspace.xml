@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d3df8f7-1553-4f0e-ac1d-6ad72af20a83" name="Default Changelist" comment="" />
+    <list default="true" id="2d3df8f7-1553-4f0e-ac1d-6ad72af20a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab4/task1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab4/task1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab4/task2/Filerw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab4/task2/Filerw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab4/task2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab4/task2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab4/task2/tour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab4/task2/tour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab4/task3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab4/task3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab4/task4/ClassSeriyazableFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab4/task4/ClassSeriyazableFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab4/task4/ClassTextFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab4/task4/ClassTextFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab4/task4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab4/task4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab4/task4/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab4/task4/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task2/Filerw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task2/Filerw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task2/tour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task2/tour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task4/ClassSeriyazableFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task4/ClassSeriyazableFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task4/ClassTextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task4/ClassTextFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task42.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task42.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +36,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1U0QzRo01eu6THgTmoZvVmuIop0" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -31,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task1.Main" />
       <module name="lab4" />
@@ -96,9 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -116,5 +143,18 @@
       <updated>1574491294332</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

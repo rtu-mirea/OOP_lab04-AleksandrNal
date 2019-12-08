@@ -1,15 +1,15 @@
 package task2;
 
 public class tour {
-    private String name;
-    private String country;
-    private String city;
-    private String hotel_name;
-    private int stars;
-    private int duration;
-    private int amount;
-    private double cost;
-    private String company;
+    public String name;
+    public String country;
+    public String city;
+    public String hotel_name;
+    public int stars;
+    public int duration;
+    public int amount;
+    public double cost;
+    public String company;
 
     tour(String n, String c, String ci, String hn, int s, int d, int a, double cos, String com) throws Exception{
         name = n;

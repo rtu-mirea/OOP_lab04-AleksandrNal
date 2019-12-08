@@ -52,9 +52,6 @@ public class Main {
             num2();
             num3();
 
-
-
-
         } catch (Exception e) {
             System.out.println("Ошибка");
         }

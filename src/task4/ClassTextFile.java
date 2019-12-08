@@ -25,5 +25,4 @@ public class ClassTextFile implements Serializable{
         }
         i.close();
     }
-
 }

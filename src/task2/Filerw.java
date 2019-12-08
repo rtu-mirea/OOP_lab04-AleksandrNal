@@ -15,9 +15,15 @@ public class Filerw {
         DataOutputStream dataOut = new DataOutputStream(new FileOutputStream(name));
 
         for(tour t : b){
-            byte[] bbb = t.toString().getBytes("UTF-8");
-            dataOut.write(bbb);
-            dataOut.write("\n".getBytes("UTF-8"));
+            dataOut.writeUTF(t.name);
+            dataOut.writeUTF(t.country);
+            dataOut.writeUTF(t.city);
+            dataOut.writeUTF(t.hotel_name);
+            dataOut.writeInt(t.stars);
+            dataOut.writeInt(t.duration);
+            dataOut.writeInt(t.amount);
+            dataOut.writeDouble(t.cost);
+            dataOut.writeUTF(t.company);
         }
 
         File f = new File(name);
@@ -35,17 +41,16 @@ public class Filerw {
         ArrayList<tour> b = new ArrayList<tour>();
         while (dataIn.available() > 0){
 
-            String[] k = dataIn.readLine().split(" ");
-            if (k[8].equals(company)) {
-                String n = k[0];
-                String c = k[1];
-                String ci = k[2];
-                String hn = k[3];
-                int s = Integer.parseInt(k[4]);
-                int d = Integer.parseInt(k[5]);
-                int a = Integer.parseInt(k[6]);
-                Double cos = Double.parseDouble(k[7]);
-                String com = k[8];
+            String n = dataIn.readUTF();
+            String c = dataIn.readUTF();
+            String ci = dataIn.readUTF();
+            String hn = dataIn.readUTF();
+            int s = dataIn.readInt();
+            int d = dataIn.readInt();
+            int a = dataIn.readInt();
+            Double cos = dataIn.readDouble();
+            String com = dataIn.readUTF();
+            if (com.equals(company)) {
                 tour t = new tour(n, c, ci, hn, s, d, a, cos, com);
 
                 b.add(t);
@@ -81,6 +86,7 @@ public class Filerw {
             raf.readLine();
         }
         raf.write(bbb);
+        System.out.println(t.toString());
         raf.close();
     }
 }

@@ -1,9 +1,5 @@
 package task4;
 
-
-import java.io.Serializable;
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
         //Задание 2
